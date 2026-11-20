@@ -1,0 +1,149 @@
+/*{
+    outline: 2px solid red;
+}*/
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    background-color: /*rgb(23, 45, 63)*/#1F2937;
+    padding: 0px 100px 70px 100px;
+}
+
+h1,
+.logo {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: grey;
+}
+
+#click {
+    color: white;
+    background-color: rgb(10, 147, 238);
+    padding: 10px;
+    border-radius: 14px;
+    width: 30%;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.header-content {
+    display: flex;
+}
+
+#one {
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+#two {
+    background-color: grey;
+    box-sizing: border-box;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card {
+    box-sizing: border-box;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    padding: 50px;
+    border: 2px solid rgb(10, 147, 238);
+    border-radius: 14px;
+    width: 10px;
+}
+
+#card-one,
+#card-two,
+#card-three,
+#card-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+    width: 150px
+}
+
+.thor {
+    background-color: rgb(224, 223, 223);
+    padding: 50px 100px;
+    margin-bottom: 40px;
+}
+
+.signup-container {
+    background-color: rgb(39, 123, 248);
+    padding: 20px 100px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+#words {
+    /*border: red solid;*/
+    width: 350px;
+    color: white;
+    margin-right: auto;
+
+}
+
+#blue-button {
+    background-color: rgb(39, 123, 248);
+    border: white solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 14px;
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(23, 45, 63);
+    color: white;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: small;
+}
